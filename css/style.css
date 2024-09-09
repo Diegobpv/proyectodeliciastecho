@@ -22,7 +22,7 @@ header{
     text-align: center;
     height: 90vh;
     color: whitesmoke;
-    font-size: 3rem;
+    font-size: 5rem;
     background-image: linear-gradient(
         0deg,
         rgb(0,0,0,0.5),
@@ -48,7 +48,7 @@ header{
     text-align: center;
     height: 80vh;
     color: whitesmoke;
-    font-size: 3rem;
+    font-size: 5rem;
     background-image: linear-gradient(
         0deg,
         rgb(0,0,0,0.5),
@@ -69,8 +69,31 @@ header{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #ec8cacb4;
 }
-img{
+.card img{
     width: 200px;
+}
+#heroTiendas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    color: whitesmoke;
+    font-size: 5rem;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0,0,0,0.5),
+        rgb(0,0,0,0.5)
+    )
+    ,url(../assets/banner-tiendas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#cardTiendas{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;   
 }
 .bannernosotros{
     width: 50%;
