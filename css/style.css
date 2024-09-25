@@ -33,12 +33,12 @@ header{
     background-size: cover;
     background-position: center;
 }
-.sectionExplora{
+.sectionDestacado{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.sectionExplora h3{
+.sectionDestacado h3{
     font-size: 2.8rem;
 }
 #heroProductos{
@@ -72,6 +72,11 @@ header{
 .card img{
     width: 200px;
 }
+.sectionProductos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 #heroTiendas{
     display: flex;
     align-items: center;
@@ -95,15 +100,52 @@ header{
     flex-direction: row;
     justify-content: center;   
 }
-.bannernosotros{
-    width: 50%;
-    height: 50%;
+
+#heroNosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    color: whitesmoke;
+    font-size: 5rem;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0,0,0,0.5),
+        rgb(0,0,0,0.5)
+    )
+    ,url(../assets/banner-nosotros-principal.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
 }
-.sectionProductos{
+.sectionNosotros{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
 }
+.imgNosotros{
+    width: 30%;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20%;
+    text-align: center;
+}
+.sectionNosotros p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 30px;
+    padding: 50px;
+    width: 40%;
+    height: 40%;
+}
+.nuestrasTiendas{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
 header h1{
     font-size: 3rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -126,4 +168,9 @@ a{
     font-size: 1.5rem;
     color: black;
     font-weight: bold;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: end;
 }
